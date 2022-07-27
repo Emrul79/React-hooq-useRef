@@ -18,15 +18,15 @@ import Countryapp from "./Countryapp/Countryapp";
 import Search from "./Countryapp/Search";
 import Main from "./Countryapp2/Main";
 import Useref from "./UseRef/useref";
+import Reducer from "./Usereducer/reducer";
+import ActuallReducer from "./Usereducer/actuallReducer";
 
 function App() {
 
    
   return (
     <div>
-      hello world
-      hsghrui
-     <Useref/>
+        <ActuallReducer/>
     </div>
   );
 }
