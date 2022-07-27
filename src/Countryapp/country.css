@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 500;
+}
+
+h4,h2,h3,h5{
+    padding: 0.2rem;
+    margin: 0.5rem 0;
+}
+img{
+    width: 10rem;
+    height: 7rem;
+}
+article{
+    background-color: #34495e;
+    color: #fff;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.5s;
+
+}
+button{
+    border: none;
+    outline: none;
+}
+article:hover{
+    transform: scale(1.05);
+}
