@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.navitem{
+  color: #FFF;
+}
+.mynavbar .active{
+  transition: 0.3s all ease;
+  background-color: orangered;
+  color: red;
+}

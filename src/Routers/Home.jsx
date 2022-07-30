@@ -1,0 +1,22 @@
+import React from 'react'
+import {  useNavigate} from "react-router-dom";
+const Home = () => {
+  const navigate= useNavigate()
+  return (
+      <div className='p-5 m-5'>
+          <h1>This is Our HomePage</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem cupiditate odio deleniti possimus porro maxime sit minus illum pariatur molestiae voluptates ipsam delectus aliquid harum ex similique, voluptas eaque?</p>
+          <h2>This is oue only website</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum natus neque quae? Maxime, delectus qui. Suscipit voluptas rem iure impedit, sed doloremque quisquam excepturi autem libero quidem ad eaque, velit, officia rerum voluptates ex quasi. Reprehenderit hic commodi deserunt dolore, debitis asperiores sapiente placeat doloremque, modi a blanditiis! Facilis, eos obcaecati ipsum laudantium, dolore repellat ullam non iste molestias voluptas itaque commodi, est cupiditate exercitationem quas. Expedita, totam asperiores nemo deleniti similique veniam quod. Pariatur impedit, temporibus qui labore mollitia quas commodi maxime minima quibusdam placeat nemo velit recusandae accusamus expedita id sequi animi aspernatur! Optio expedita fuga placeat, distinctio, fugiat odio temporibus consectetur voluptatibus, in officiis quas hic maiores quis eligendi laudantium nostrum illo magni tenetur magnam! Magnam dolorem culpa vitae soluta repellat eligendi incidunt animi quos repellendus, maxime, deleniti in natus molestiae dolor. Ea, molestias? Incidunt consectetur nesciunt fugit. Eaque, nesciunt suscipit. Nobis ipsa pariatur laborum impedit accusamus temporibus expedita reprehenderit hic, deleniti laboriosam odio eos. Commodi laudantium voluptatum id incidunt accusamus vero reiciendis alias, vitae odio porro eius laborum quasi delectus dignissimos ipsa, impedit at. Veritatis eius at doloribus, ad qui incidunt quas odit dolorum ut quo a tenetur aliquid maxime ipsam dignissimos. Deleniti nobis, quo incidunt sapiente natus iure. Amet consequatur, ratione eos, distinctio modi nostrum aspernatur nesciunt laudantium est vero sed ab deleniti corporis. Nam nihil amet odio id sed facilis facere consectetur iure architecto maiores! Dolorum nulla iste tempore eius perspiciatis, error, atque molestias earum repellendus sed, pariatur cumque aliquam! Voluptates incidunt quis iure laudantium placeat dolorum molestias exercitationem tempora. Deserunt temporibus ipsum molestias amet rem? Soluta aliquid id ex nulla voluptatibus. Modi ducimus labore quibusdam veritatis deleniti, laudantium quis amet unde voluptate atque sapiente quam minus corporis commodi odio sunt aliquid incidunt eum quod doloremque deserunt, aut at dicta! Laboriosam corrupti commodi esse hic aperiam itaque eligendi earum quia sit velit quasi magni temporibus libero blanditiis laborum quam praesentium, ipsam iusto. Alias, voluptas nihil tempore laboriosam aut dolores! Amet necessitatibus aspernatur quisquam aliquam inventore in? Corporis, sequi. Sint eos nobis recusandae reiciendis eum non aut fugiat obcaecati incidunt corrupti quidem, nisi voluptatibus praesentium.</p>
+       
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi vero voluptatum nisi eos asperiores praesentium ratione eum voluptate, aperiam consequatur ullam quod et suscipit, expedita enim reprehenderit voluptatem ea voluptates, magni autem sed dolore commodi eveniet! Laudantium laboriosam repellendus quia? Doloribus sunt cupiditate, reprehenderit impedit nostrum magnam enim. Iusto ipsam libero pariatur culpa ut nisi totam, harum magnam necessitatibus, saepe, expedita doloribus facilis deleniti ducimus ex quibusdam unde eveniet laborum a dolorem inventore animi? Quia fuga eligendi sed debitis quam unde ex accusantium aut reiciendis consequuntur laboriosam, impedit delectus corporis cupiditate nihil iure, ipsa optio nisi nemo ullam enim. Sit sint a natus, deserunt itaque, veritatis, dolorum ducimus reprehenderit dolore non nostrum voluptatem nihil maiores eligendi similique provident quidem molestiae!</p>
+      
+      <button onclick={() => {
+        navigate("/contact")
+      }}>Get in Touch</button>
+    
+    </div>
+  )
+}
+
+export default Home

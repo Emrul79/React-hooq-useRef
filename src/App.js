@@ -20,13 +20,17 @@ import Main from "./Countryapp2/Main";
 import Useref from "./UseRef/useref";
 import Reducer from "./Usereducer/reducer";
 import ActuallReducer from "./Usereducer/actuallReducer";
-
+import Dada from "./Usereducer/Dada";
+import Proptypes from "./Usereducer/Proptypes";
+import Mainrouters from "./Routers/Mainrouters";
+import Webpage from "./Routers/Webpage";
 function App() {
 
    
   return (
     <div>
-        <ActuallReducer/>
+      <Mainrouters/>
+      {/* <Webpage/> */}
     </div>
   );
 }

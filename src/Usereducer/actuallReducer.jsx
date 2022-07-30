@@ -33,7 +33,7 @@ const reducer = (state, action) => {
       return {
         books: filtered,
         ismodelOpen: true,
-        modeltext:<p className="text-danger">a book has been deleted</p>
+        modeltext:<p className="text-danger">A book has been deleted</p>
       };
           
   }
